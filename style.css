@@ -1,297 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,cheome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="captain (3).png" type="captain.jpg">
+    <title>Moath</title>
+</head>
+<body>
 
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth; 
-}
-
-
-header {
-    background-color: #f0f0f0;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 200px ;
-}
-
-.logo{
-    text-decoration: none;
-    color: #3a6cf4;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.8em;
-}
-
-.navigation a{
-    color: #3a6cf4;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding-left: 30px;
-}
-
-.navigation a:hover{
-    color: #601cfc;
-}
-
-section {
-    padding: 100px 200px;
-}
-
-.main {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items:start;
-    background: url(captain1.png) no-repeat;
-    background-size: 30%;
-    background-position: right;
-    background-attachment: fixed;
-}
- 
+    <header>
+        <a href="#" class="logo">Moath Al-Dwairi</a>
+        <nav class="navigation">
+            <a href="#services">Qualifications</a>
+            <a href="#projects">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
 
-.main h2 {
-    color: #1a41de;
-    font-size: 1.4em;
-    font-weight: 500;
-}
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Moath<br><span>IT supporter</span></h2>
+            <h3>I will be your guide in Cyberspace</h3>
+            <a href="#projects" class="main-btn">View my skills</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/moath1411/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/yellow_lanes"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/v.z1m/"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.facebook.com/moath.dwairi.1411"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
 
-.main h2 span {
-    display: inline-block;
-    margin-top: 10px;
-    color: #4e9eff;
-    font-size: 3em;
-    font-weight: 600;
-}
+    </section>
 
-.main h3 {
-    color: #1a41de;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
+    <section class="cards" id="services">
+        <h2 class="title">Qualifications</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <div class="info">
+                    <h3>Certified IT Support</h3>
+                    <p>Have foundations of networking and operating systems, providing end-to-end customer support, and how to solve problems using code.</p>
+                </div>
+            </div>
 
-.main-btn {
-    color: #fff;
-    background-color: #3a6cf4;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    transition: 0.7s ease;
-}
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3>Bachelor's</h3>
+                    <p>Study a bachelr's degree in CyberSecurity at Taflia Technical University, third year</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <div class="info">
+                    <h3>ICDL</h3>
+                    <p>ICDL Foundation is a Global Social Enterprise dedicated to raising digital competence standards in the Workforce, Education and Society.</p>
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Programmer</h3>
+                    <p>Have the basics of programming and can work on the web pages, modify and develop them </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-exclamation-triangle"></i>
+                </div>
+                <div class="info">
+                    <h3>Certified CyberSecurity Analyzer</h3>
+                    <p>knowledge of cybersecurity analyst tools including data protection; endpoint protection; SIEM; and systems and network fundamentals.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <div class="info">
+                    <h3>Google Cybersecurity Professional Certificate</h3>
+                    <p>Understand the importance of cybersecurity practices and their impact for organizations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.main-btn:hover {
-    background-color: #0a49f6;
-    transform: scale(1.1);
-}
+    <section class="projects" id="projects">
+        <h2 class="title">skills</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="info">
+                    <h3>Video Editting</h3>
+                    <p>Record and shoot videos taking into consideration proper settings, followed by production & post-production work</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>Photo Editting</h3>
+                    <p>Editing images, graphic design, creating designs and posters and making posts for social media</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="info">
+                    <h3>Technical Supporter</h3>
+                    <p>I can Help you in Hardware and Software in your device</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="info">
+                    <h3>Accounts Manager</h3>
+                    <p>I can help you with your accounts on social media (YouTube,Instagram,FaceBook) protect and manage it</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.social-icons a {
-    color: #1a41de;
-    font-size: 1.7em;
-    padding-right: 30px;
-}
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>00962790579622</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>dmoath2@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">&copy;2023 <span>Moath Al-Dwairi</span></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/moath1411/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yellow_lanes"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/v.z1m/"><i class="fab fa-instagram"></i></a>
+            <a href="https://web.facebook.com/moath.dwairi.1411"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
 
-.title {
-    display: flex;
-    justify-content: center;
-    color: #3a6cf4;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: #fff;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
-}
-
-.card:hover {
-    transform: scale(1.1);
-}
-
-.card .icon {
-    color: #3a6cf4;
-    font-size: 8em;
-    text-align: center;
-}
-
-.info {
-    text-align: center;
-}
-
-.info h3{
-    color: #3a6cf4;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 10px;
-}
-
-.projects {
-    background-color: #000016;
-}
-
-.projects .content{
-    margin-top: 30px;
-}
-
-.project-card {
-    background-color: #fff;
-    border: 1px solid #fff;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.7s ease;
-}
-
-.project-card:hover {
-   transform: scale(1.1);
-}
-
-.project-card:hover .project-image {
-    opacity: 0.9;
- }
-
-.project-image img{
-    width: 100%
-}
-
-.project-info {
-    padding: 1em;
-}
-
-.project-category {
-    font-size: 0.8em;
-    color: #000;
-}
-
-.project-title {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px;
-}
-
-.more-details {
-    text-decoration: none;
-    color: #3a6cf4;
-}
-
-.more-details:hover {
-    color: #601cfc;
-}
-
-.contact .icon{
-    font-size: 4.5em;
-}
-
-.contact .info h3 {
-    color: #000;
-}
-
-.contact .info p {
-    font-size: 1.5em;
-}
-
-.footer {
-    background-color: #000016;
-    color: #fff;
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-title {
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-.footer-title span {
-    color: #3a6cf4;
-}
-
-.footer .social-icons a{
-    font-size: 1.3em;
-    padding: 0 12px 0 0;
-}
-
-@media (max-width:1023px){
-    header{
-        padding: 12px 20px;
-    }
-
-    .navigation a{
-        padding-left: 10px;
-    }
-
-    .title{
-        font-size: 1.8em;
-    }
-
-    section{
-        padding: 80px 20px;
-    }
-
-    .main-content h2{
-        font-size: 1em;
-    }
-
-    .main-content h3{
-        font-size: 1.6em;
-    }
-
-    .content{
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-@media (max-width:641px){
-    body{
-        font-size: 12px;
-    }
-
-    .main-content h2{
-        font-size: 0.8em;
-    }
-
-    .main-content h3{
-        font-size: 1.4em;
-    }
-}
-
-@media (max-width:300px){
-    body{
-        font-size: 10px;
-     
-    }
-}
+</body>
+</html>
