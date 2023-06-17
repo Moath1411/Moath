@@ -48,12 +48,14 @@ section {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    background: url(images/background.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    align-items:start;
+    background: url(captain1.png) no-repeat;
+    background-size: 30%;
+    background-position: right;
     background-attachment: fixed;
 }
+ 
+
 
 .main h2 {
     color: #1a41de;
